@@ -1,0 +1,23 @@
+# Ignore Python virtual environment
+.venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore DVC cache (tracked data is stored remotely, not here)
+.dvc/cache/
+
+# Don't ignore your DVC-tracked data or models!
+# So we do NOT ignore these folders:
+# data/
+# model/
+# metrics/
